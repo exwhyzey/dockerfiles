@@ -5,8 +5,8 @@
 ```docker start -ai <your_container_name>```
 
 ### Create an image out of running container
-```docker commit <container_name_or_id> <new_image_name>
-
+```
+docker commit <container_name_or_id> <new_image_name>
 ie:
 docker commit SDS ubuntu22_standard
 ```
